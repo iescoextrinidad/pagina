@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>IES Concepción – Tucumán</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f5f5f5; }
+    header, footer { background:#003366; color:#fff; text-align:center; padding:1em; }
+    nav { background:#0055a5; }
+    nav ul { list-style:none; margin:0; padding:0; display:flex; justify-content:center; }
+    nav li { margin:0 10px; }
+    nav a { color:white; text-decoration:none; padding:10px; display:block; }
+    main { max-width:1000px; margin:20px auto; background:#fff; padding:20px; }
+    section + section { margin-top:40px; }
+    h2, h3 { color:#003366; }
+    .curso, .noticia { border-bottom:1px solid #ddd; padding-bottom:15px; margin-bottom:15px; }
+    .curso:last-child, .noticia:last-child { border:none; margin-bottom:0; padding-bottom:0; }
+    @media (max-width:600px){
+      nav ul { flex-direction:column; }
+      nav li { margin:5px 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>IES Concepción – Extensión Áulica la Trinidad – Tucumán</h1>
+    <p>Educación superior pública para el desarrollo regional</p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#institucional">Institucional</a></li>
+      <li><a href="#carreras">Carreras</a></li>
+      <li><a href="#noticias">Noticias</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="institucional">
+      <h2>Institucional</h2>
+      <p>Bienvenidos al Instituto de Educación Superior Concepción (Tucumán). Nuestra misión es formar profesionales críticos, solidarios y preparados para contribuir al desarrollo local.</p>
+      <h3>Autoridades</h3>
+      <ul>
+        <li>Secretaría: [Nombre Completo] – Tel: [Teléfono] – Email: [email]</li>
+        <li>Coordinación Académica: [Nombre Completo]</li>
+        <li>Coordinación Administrativa: [Nombre Completo]</li>
+      </ul>
+    </section>
+
+    <section id="carreras">
+      <h2>Carreras</h2>
+      <div class="curso">
+        <h3>Título de Tecnicatura 1</h3>
+        <p>Duración: X años – Modalidad: presencial/virtual.</p>
+        <p>Descripción breve de la carrera, sus objetivos y salidas laborales.</p>
+      </div>
+      <div class="curso">
+        <h3>Título de Tecnicatura 2</h3>
+        <p>Duración: X años – Modalidad: presencial/virtual.</p>
+        <p>Descripción breve de la carrera, sus objetivos y salidas laborales.</p>
+      </div>
+      <!-- Añadí más bloques según las carreras reales -->
+    </section>
+
+    <section id="noticias">
+      <h2>Noticias</h2>
+      <div class="noticia">
+        <h3>Título Noticia Reciente</h3>
+        <p><small>Fecha: DD/MM/AAAA</small></p>
+        <p>Resumen corto de la noticia, evento o actividad realizada.</p>
+        <a href="enlace_a_detalle.html">Leer más…</a>
+      </div>
+      <div class="noticia">
+        <h3>Otro Evento o Noticia</h3>
+        <p><small>Fecha: DD/MM/AAAA</small></p>
+        <p>Breve introducción de la publicación or actividad destacada.</p>
+        <a href="enlace_a_detalle.html">Leer más…</a>
+      </div>
+      <!-- Más noticias según lo que actualicen -->
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form>
+        <label>Nombre*</label><br><input type="text" name="nombre" required><br>
+        <label>Email*</label><br><input type="email" name="email" required><br>
+        <label>Mensaje</label><br><textarea name="mensaje" rows="4"></textarea><br>
+        <button type="submit">Enviar</button>
+      </form>
+      <p><strong>Dirección:</strong> Calle Falsa 123, Concepción, Tucumán.</p>
+      <p><strong>Teléfono:</strong> (03865) 123‑456.</p>
+      <p><strong>Horario de atención:</strong> Lunes a Viernes, 8:00 a 12:00 y 14:00 a 18:00.</p>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 IES Concepción – Tucumán. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
